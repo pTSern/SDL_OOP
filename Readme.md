@@ -1,9 +1,12 @@
+# Requires
+
++ `vcpkg` package from VS 2022.
++ `LLVM`, `ninja`. Can be installed from (chocolatey)[https://chocolatey.org/]
 
 # Installation
 
-1. Install `vcpkg` via VS 2022 in the C++ option.
-2. Setup your `VCPKG_ROOT` to env. Also add `vcpkg` to your `path`.
-3. Run `cmake --preset win-vcpkg` at `.` to install dependencies lib.
+1. Setup your `VCPKG_ROOT` to env. Also add `vcpkg` to your `path`.
+2. Run `install.bat` to install dependencies lib.
 
 # Notice
 
