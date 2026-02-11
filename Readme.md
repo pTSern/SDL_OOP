@@ -1,7 +1,7 @@
 # Requires
 
-+ `vcpkg` package from VS 2022.
-+ `LLVM`, `ninja`. Can be installed from (chocolatey)[https://chocolatey.org/]
++ `vcpkg` package from [VS 2022](https://visualstudio.microsoft.com/insiders/).
++ `LLVM`, `ninja`. Can be installed from [chocolatey](https://chocolatey.org/)
 
 # Installation
 
