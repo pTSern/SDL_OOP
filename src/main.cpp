@@ -1,9 +1,11 @@
 
-#include <SDL2/SDL.h>
-#include "SDL2/SDL_error.h"
+#include "core/Timer.h"
+#include <SDL.h>
+#include <SDL_error.h>
+
 #include <iostream>
 #include <ostream>
-
+#include "pTS/pTSpace.h"
 
 int main(int argc, char* argv[]) {
 
@@ -36,10 +38,11 @@ int main(int argc, char* argv[]) {
     bool quit = false;
     SDL_Event event;
 
-    std::cout << "Press ESC or close the window to quit." << std::endl;
+    pTS::Engine::get_instance()->log();
 
     while(!quit) {
         while (SDL_PollEvent(&event)) {
+            pTS::Timer::get_instance()->log();
             if(event.type == SDL_QUIT) {
                 quit = true;
             } else if (event.type == SDL_KEYDOWN) {

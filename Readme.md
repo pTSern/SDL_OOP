@@ -5,8 +5,10 @@
 
 # Installation
 
-1. Setup your `VCPKG_ROOT` to env. Also add `vcpkg` to your `path`.
-2. Run `install.bat` to install dependencies lib.
+1. Clone this repo.
+2. Setup your `VCPKG_ROOT` to env. Also add `vcpkg` to your `path`.
+3. Run `install.bat` to install dependencies lib.
+4. Run `build.bat` to build the game.
 
 # Notice
 
